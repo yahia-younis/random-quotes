@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.text-center,
+.quote-output {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.quote-output {
+  background-color: #dfdfdf;
+}
+h1 {
+  font-size: 5rem;
+  font-family: Impact;
+}
+.text-center p {
+  color: #aaaaaa;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+.btn {
+  padding: 1.5rem 5rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  background-color: red;
+  color: #fff;
+  transition: .3s all;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(1.15);
+}
+.quote-output-text {
+  width: 70%;
+  margin: auto;
+}
+.quote-output p {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+.quote-output span {
+  font-size: 1.5rem;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .text-center p {
+    font-size: 1.2rem;
+  }
+  .btn {
+    margin-top: 0;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+  }
+  .quote-output p {
+    font-size: 1.5rem;
+  }
+  .quote-output span {
+    font-size: 1rem;
+  }
+  .quote-output-text {
+    width: 90%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .text-center p {
+    font-size: 1.5rem;
+  }
+  .btn {
+    margin-top: .5rem;
+    padding: 1rem 3rem;
+  }
+  .quote-output p {
+    font-size: 2rem;
+  }
+  .quote-output span {
+    font-size: 1rem;
+  }
+  .quote-output-text {
+    width: 80%;
+  }
+}
+
